@@ -1,4 +1,63 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Oficial</title>
+    <style>
+        /* Configuración de la página negra */
+        body {
+            background-color: #000000;
+            color: white;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Estilo del Logo */
+        .logo {
+            max-width: 300px; /* Ajusta el tamaño aquí */
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        /* Estilo del enlace de Instagram */
+        .instagram-link {
+            text-decoration: none;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            border: 1px solid #333;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+            color: #FFFFFF !important; /* Forzamos la Y blanca */
+        }
+
+        .instagram-link:hover {
+            background-color: #ffffff;
+            color: #000000 !important;
+        }
+
+        /* Regla especial para cualquier letra Y en el texto */
+        span.y-white {
+            color: #FFFFFF !important;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="logo.png" alt="Logo Artista" class="logo">
+
+    <a href="https://www.instagram.com/TU_USUARIO" class="instagram-link">
+        INSTAGRAM
+    </a>
+
+</body>
+</html>## Hi there 👋
 
 <!--
 **YosanWorld/yosanworld** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
