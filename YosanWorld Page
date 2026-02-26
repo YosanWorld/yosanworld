@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Oficial</title>
+    <style>
+        /* Fondo negro puro */
+        body {
+            background-color: #000000;
+            color: white;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Helvetica', Arial, sans-serif;
+        }
+
+        /* Contenedor del logo */
+        .logo-container {
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            max-width: 450px; /* Tamaño ideal según el sample */
+            width: 90%;
+            height: auto;
+        }
+
+        /* Estilo del texto INSTAGRAM */
+        .insta-text {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        /* Estilo del link */
+        .insta-link {
+            color: #FFFFFF !important; /* La Y y todo el link en blanco */
+            font-size: 1.1rem;
+            text-decoration: underline;
+            opacity: 0.8;
+            transition: 0.3s;
+        }
+
+        .insta-link:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo">
+    </div>
+
+    <div class="insta-text">INSTAGRAM</div>
+    
+    <a href="https://www.instagram.com/TU_USUARIO" class="insta-link">
+        https://www.instagram.com/tu_usuario
+    </a>
+
+</body>
+</html>
